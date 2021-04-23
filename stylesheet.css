@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-small;
+  margin: 0;
+  line-height: 1.7em;
+}
+header {
+  padding: 2em;
+  padding-left: 15%;
+  text-align: left;
+  background: rgb(44, 161, 190);
+  color: white;
+  font-size: 25px;
+  margin-top: 0;
+}
+nav {
+  padding: 1em;
+  padding-left: 15%;
+  text-align: left;
+  background: rgb(241, 239, 239);
+  color:rgb(49, 46, 46);
+  font-size: .8rem; 
+  font-weight: bold; 
+}
+h3 {
+  color:rgb(49, 46, 46);
+}
+h4 {
+  color: rgb(44, 161, 190);
+  line-height: 1.7em;
+  font-size: small;
+}
+section{
+  float: left;
+  margin: 3% 5% 3% 2%;
+  width: 45%;
+  padding-left: 13%;
+  color: rgb(28, 28, 31);
+}
+aside {
+  float: right;
+  margin: 3% 13% 3% 0;
+  width: 20%;
+}
+a:link {
+  color: rgb(74, 167, 190);
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: rgb(1, 49, 73);
+}
+footer {
+  padding: 3em;
+  background-color: rgb(49, 46, 46);
+  clear: both;
+  margin-bottom: 0;
+  color: white;
+  font-size: x-small;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+  text-align: right;
+}
+.gallery {
+  display: flex;
+  align-items: center;
+}
+.kitty-box {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  color: rgb(1, 49, 73);
+  font-size: small;
+  font-weight: bold;
+}
+.profiles {
+  float:left; 
+  filter: saturate(50%);
+  width: 75%;
+  height: auto;
+  margin-top: 2rem;
+  margin-bottom:  4rem;
+  margin-right: 2rem;
+ }
+.xx-small {
+  font-size: xx-small;
+}
+#italic {
+  font-style: italic;
+  color: white;
+  font-size: large;
+}
+#one {
+  margin: 3% 30% 3% 13%;
+  padding: 2em;
+  width: 60%;
+}
+#two {
+  color: rgb(74, 167, 190);
+  margin: 2rem 0 2rem 0;
+  font-size: small;
+}
+#three {
+  color:white;
+  margin-top: 3em;
+  margin-bottom: 3em;  
+}
+#four {
+  color: rgb(49, 46, 46);
+}
