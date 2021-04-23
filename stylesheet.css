@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: xx-small;
+  font-size: small;
   margin: 0;
   line-height: 1.7em;
 }
@@ -8,34 +8,34 @@ header {
   padding: 2em;
   padding-left: 15%;
   text-align: left;
-  background: rgb(44, 161, 190);
-  color: white;
-  font-size: 25px;
+  background: #2CA1BE;
+  color: FFFFFF;
+  font-size: 30px;
   margin-top: 0;
 }
 nav {
   padding: 1em;
   padding-left: 15%;
   text-align: left;
-  background: rgb(241, 239, 239);
-  color:rgb(49, 46, 46);
-  font-size: .8rem; 
+  background: #F1EFEF;
+  color:#312E2E;
+  font-size: 1.2rem; 
   font-weight: bold; 
 }
 h3 {
-  color:rgb(49, 46, 46);
+  color:#312E2E;
 }
 h4 {
-  color: rgb(44, 161, 190);
+  color: #357F92;
   line-height: 1.7em;
-  font-size: small;
+  font-size: medium;
 }
 section{
   float: left;
   margin: 3% 5% 3% 2%;
   width: 45%;
   padding-left: 13%;
-  color: rgb(28, 28, 31);
+  color: #1C1C1F;
 }
 aside {
   float: right;
@@ -43,20 +43,21 @@ aside {
   width: 20%;
 }
 a:link {
-  color: rgb(74, 167, 190);
+  /* color: #4AA7BE; */
+  color: #357F92;
   text-decoration: none;
 }
 a:visited {
   text-decoration: none;
-  color: rgb(1, 49, 73);
+  color: #013046;
 }
 footer {
   padding: 3em;
-  background-color: rgb(49, 46, 46);
+  background-color: #312E2E;
   clear: both;
   margin-bottom: 0;
-  color: white;
-  font-size: x-small;
+  color: #FFFFFF;
+  font-size: small;
   text-align: center;
 }
 li {
@@ -71,8 +72,8 @@ li {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  color: rgb(1, 49, 73);
-  font-size: small;
+  color: #013046;
+  font-size: medium;
   font-weight: bold;
 }
 .profiles {
@@ -84,13 +85,16 @@ li {
   margin-bottom:  4rem;
   margin-right: 2rem;
  }
-.xx-small {
-  font-size: xx-small;
+.small {
+  font-size: small;
+}
+.kitty-name {
+  font-size: medium;
 }
 #italic {
   font-style: italic;
-  color: white;
-  font-size: large;
+  color: #FFFFFF;
+  font-size: x-large;
 }
 #one {
   margin: 3% 30% 3% 13%;
@@ -98,15 +102,32 @@ li {
   width: 60%;
 }
 #two {
-  color: rgb(74, 167, 190);
+  /* color: #4AA7BE; */
+  color: #357F92;
   margin: 2rem 0 2rem 0;
-  font-size: small;
+  font-size: medium;
 }
 #three {
-  color:white;
+  color:#FFFFFF;
   margin-top: 3em;
   margin-bottom: 3em;  
 }
 #four {
-  color: rgb(49, 46, 46);
+  color: #312E2E;
+}
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+.hidden:focus {
+  left: 0;
+}
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
